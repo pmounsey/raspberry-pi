@@ -50,3 +50,8 @@ static ip_address=192.168.5.20/24
 static routers=192.168.5.1
 static domain_name_servers=1.1.1.1
 ```
+
+# [Raspberry Pi Camera](https://www.raspberrypi.org/documentation/raspbian/applications/camera.md)
+
+# Take a picture
+
