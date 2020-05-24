@@ -48,7 +48,7 @@ $ sudo vi /etc/dhcpcd.conf
 interface wlan0
 static ip_address=192.168.5.20/24
 static routers=192.168.5.1
-static domain_name_servers=1.1.1.1
+static domain_name_servers=8.8.8.8
 ```
 
 # [Raspberry Pi Camera](https://www.raspberrypi.org/documentation/raspbian/applications/camera.md)
