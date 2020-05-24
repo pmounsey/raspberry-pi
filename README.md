@@ -15,7 +15,7 @@ $ sudo iwlist wlan0 scan | grep ESSID
                     ESSID:"Mustang"
 ```
 
-# Edit wpa_supplicant.conf file with wifi password and ssid
+# Add wifi enpoint to wpa_supplicant.conf 
 ```
 $ sudo vi /etc/wpa_supplicant/wpa_supplicant.conf
 
@@ -41,7 +41,7 @@ network={
 }
 ```
 
-# Add static ip addres to wifi wlan0
+# Configure static ip address to wifi wlan0
 ```
 $ sudo vi /etc/dhcpcd.conf
 
